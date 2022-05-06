@@ -1,5 +1,5 @@
-#Given: Two positive integers a and b (a<b<10000).
-#Return: The sum of all odd integers from a through b, inclusively.
+#Given: A string s of length at most 200 letters and four integers a, b, c and d.
+#Return: The slice of this string from indices aa through b and cc through dd (with space in between), *inclusively*. In other words, we should include elements s[b] and s[d] in our slice.
 
 #input 
 
