@@ -1,0 +1,15 @@
+readf=open('test.txt', 'r')
+writef=open('update.txt', 'w')
+
+data= readf.readlines()
+for idx in range(0, len(data)):
+    if idx%2 == 0:
+        writef.write(data[idx])
+    else:
+        pass
+writef.close()
+readf.close()
+
+lines=open('update.txt', 'r')
+sample=lines.read()
+print(sample.strip('\n'))
