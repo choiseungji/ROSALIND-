@@ -39,10 +39,9 @@ He left it dead, and with its head
 Always look on the bright side of life
   He went galumphing back.
 And always look on the right side of life
-
-
-
-
+#============================================
+#Given: A file containing at most 1000 lines.
+#Return: A file containing all the even-numbered lines from the original file. Assume 1-based numbering of lines.
 
 readf=open('test.txt', 'r')
 writef=open('update.txt', 'w')
